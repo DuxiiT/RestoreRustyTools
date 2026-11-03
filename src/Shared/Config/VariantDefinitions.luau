@@ -1,0 +1,111 @@
+-- Hidden features rolled once when an item is created and saved with it.
+-- RevealAt is the overall restoration progress (0-1) at which the feature is uncovered.
+-- An item model shows a variant by holding a folder Variants/<Id>; the server keeps that
+-- folder out of the replicated model until the variant is revealed.
+return {
+	MakersStamp = {
+		Name = "Maker's Stamp",
+		Description = "A crisp stamp from the original forge.",
+		Chance = 0.12,
+		ValueMultiplier = 1.25,
+		RevealAt = 0.55,
+	},
+	PatentDate = {
+		Name = "Patent Date",
+		Description = "An early patent date stamped into the metal.",
+		Chance = 0.08,
+		ValueMultiplier = 1.4,
+		RevealAt = 0.6,
+	},
+	BrassDetails = {
+		Name = "Brass Details",
+		Description = "Brass fittings hidden beneath the grime.",
+		Chance = 0.1,
+		ValueMultiplier = 1.35,
+		RevealAt = 0.5,
+	},
+	EngravedPattern = {
+		Name = "Engraved Pattern",
+		Description = "Hand-cut scrollwork along the surface.",
+		Chance = 0.08,
+		ValueMultiplier = 1.5,
+		RevealAt = 0.7,
+	},
+	RoyalCrest = {
+		Name = "Royal Crest",
+		Description = "A royal crest worked into the metal.",
+		Chance = 0.05,
+		ValueMultiplier = 2.0,
+		RevealAt = 0.75,
+	},
+	GildedInlay = {
+		Name = "Gilded Inlay",
+		Description = "Gold inlay that survived beneath the corrosion.",
+		Chance = 0.05,
+		ValueMultiplier = 1.8,
+		RevealAt = 0.8,
+	},
+	PaintedEmblem = {
+		Name = "Painted Emblem",
+		Description = "A heraldic emblem with its original paint intact.",
+		Chance = 0.07,
+		ValueMultiplier = 1.6,
+		RevealAt = 0.65,
+	},
+	ChampionshipDate = {
+		Name = "Championship Date",
+		Description = "An engraved championship year.",
+		Chance = 0.08,
+		ValueMultiplier = 1.5,
+		RevealAt = 0.7,
+	},
+	OriginalPaint = {
+		Name = "Original Colors",
+		Description = "Factory paint colors preserved under the dirt.",
+		Chance = 0.1,
+		ValueMultiplier = 1.4,
+		RevealAt = 0.6,
+	},
+	ShipwrightMark = {
+		Name = "Shipwright's Mark",
+		Description = "The mark of a famous shipyard.",
+		Chance = 0.08,
+		ValueMultiplier = 1.5,
+		RevealAt = 0.65,
+	},
+	Monogram = {
+		Name = "Monogram",
+		Description = "Initials of a former owner, finely engraved.",
+		Chance = 0.1,
+		ValueMultiplier = 1.3,
+		RevealAt = 0.6,
+	},
+	JeweledSetting = {
+		Name = "Jeweled Setting",
+		Description = "Glass jewels set into the metal.",
+		Chance = 0.04,
+		ValueMultiplier = 2.2,
+		RevealAt = 0.85,
+	},
+	DamascusPattern = {
+		Name = "Damascus Pattern",
+		Description = "Rippled folded-steel patterning.",
+		Chance = 0.05,
+		ValueMultiplier = 1.9,
+		RevealAt = 0.75,
+	},
+	SilverFiligree = {
+		Name = "Silver Filigree",
+		Description = "Delicate silver wirework.",
+		Chance = 0.05,
+		ValueMultiplier = 1.8,
+		RevealAt = 0.8,
+	},
+	AncientRunes = {
+		Name = "Ancient Runes",
+		Description = "Faint runes that glow softly once clean.",
+		Chance = 0.06,
+		ValueMultiplier = 2.0,
+		RevealAt = 0.8,
+	},
+}

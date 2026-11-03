@@ -1,0 +1,20 @@
+---
+base: luau
+name: roblox_lite
+globals:
+  game: {any: true}
+  workspace: {any: true}
+  script: {any: true}
+  Instance: {any: true}
+  Vector3: {any: true}
+  Vector2: {any: true}
+  CFrame: {any: true}
+  Color3: {any: true}
+  UDim2: {any: true}
+  Enum: {any: true}
+  Random: {any: true}
+  RaycastParams: {any: true}
+  task: {any: true}
+  typeof: {any: true}
+  warn: {any: true}
+  buffer: {any: true}

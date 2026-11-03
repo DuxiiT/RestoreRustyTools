@@ -1,0 +1,68 @@
+-- Sets complete when every listed item type has been restored at least once (historical record,
+-- kept after selling). Reward is claimable once. SetSaleBonus applies when selling one owned,
+-- finished copy of every item in the set together (requires the SetSales feature).
+return {
+	ToolboxEssentials = {
+		Name = "Toolbox Essentials",
+		Items = { "Bolt", "Nut", "Washer", "Hinge", "Wrench", "Hammer", "Pliers", "Padlock", "Gear" },
+		Reward = 250,
+		SetSaleBonus = 0.2,
+		Order = 1,
+	},
+	ArmoryEchoes = {
+		Name = "Armory Echoes",
+		Items = { "Dagger", "KnightHelmet", "PirateCutlass", "OrnateShield", "RoyalSword" },
+		Reward = 2500,
+		SetSaleBonus = 0.25,
+		Order = 2,
+	},
+	ForgottenKitchen = {
+		Name = "Forgotten Kitchen",
+		Items = { "Spoon", "Kettle", "Fork", "FryingPan", "MetalCup", "Candleholder" },
+		Reward = 600,
+		SetSaleBonus = 0.2,
+		Order = 3,
+	},
+	KnightsEquipment = {
+		Name = "Knight's Equipment",
+		Items = { "KnightHelmet", "Gauntlet", "Breastplate", "RoundShield", "Spearhead" },
+		Reward = 5000,
+		SetSaleBonus = 0.25,
+		Order = 4,
+	},
+	PirateSalvage = {
+		Name = "Pirate Salvage",
+		Items = { "PirateCutlass", "BoardingCutlass", "Anchor", "ShipBell", "CompassHousing", "FlintlockPistol", "Cannonball" },
+		Reward = 4000,
+		SetSaleBonus = 0.25,
+		Order = 5,
+	},
+	OldGarage = {
+		Name = "Old Garage",
+		Items = { "AdjustableWrench", "SocketWrench", "Piston", "BrakeDisc", "CarWheel", "MotorcycleFuelTank", "EngineBlock" },
+		Reward = 6000,
+		SetSaleBonus = 0.25,
+		Order = 6,
+	},
+	ClockmakersCollection = {
+		Name = "Clockmaker's Collection",
+		Items = { "PocketWatch", "Gear", "Spring", "Bearing", "MusicBox", "MechanicalToy" },
+		Reward = 3000,
+		SetSaleBonus = 0.25,
+		Order = 7,
+	},
+	GardenShed = {
+		Name = "Garden Shed",
+		Items = { "Trowel", "PruningShears", "RakeHead", "Shovel", "WateringCan", "HedgeClippers", "GardenFork", "Wheelbarrow" },
+		Reward = 2500,
+		SetSaleBonus = 0.2,
+		Order = 8,
+	},
+	MechanicalCuriosities = {
+		Name = "Mechanical Curiosities",
+		Items = { "Pulley", "Valve", "MechanicalToy", "MiniatureRobot", "MusicBox", "MechanicalHeart" },
+		Reward = 8000,
+		SetSaleBonus = 0.3,
+		Order = 9,
+	},
+}
